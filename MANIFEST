@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Net-Hulu.t
+lib/Net/Hulu.pm
+META.yml                                 Module meta-data (added by MakeMaker)
