@@ -1,6 +1,6 @@
 Revision history for Perl extension Net::Hulu.
 
-0.01  Sun Dec 27 05:38:52 2009
+0.01  Sun Dec 27 23:15:25 2009
 	- original version; created by h2xs 1.23 with options
-		-AX --skip-exporter --use-new-tests -n Net::Hulu
+		-b 5.6.0 -XA -n Net::Hulu
 

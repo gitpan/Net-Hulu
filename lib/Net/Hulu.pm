@@ -10,11 +10,13 @@
 #declare package name
 package Net::Hulu;
 
-use 5.010001;
+use 5.006000;
 use strict;
 use warnings;
 use XML::Twig;
 use LWP::Simple;
+
+require Exporter;
 
 our @ISA = qw(Exporter);
 
@@ -41,7 +43,7 @@ our @EXPORT = qw(
                 download_recent_blog_postings_xml
 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 #declare variables for recent videos
 my $recent_videos_url = "http://rss.hulu.com/HuluRecentlyAddedVideos?format=xml";

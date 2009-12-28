@@ -1,4 +1,4 @@
-Net-Hulu version 0.01
+Net-Hulu version 0.02
 =====================
 
 The README is used to introduce the module and provide instructions on
@@ -27,6 +27,12 @@ This module requires these other modules and libraries:
 
    XML::Twig
    LWP::Simple
+
+Net::Hulu version 0.02 makes Net::Hulu with Perl version >= 5.6.0.
+Net::Hulu is a Pure Perl implementation.
+This was accomplished by using the following h2xs command.
+
+   h2xs -b 5.6.0 -XA -n Net::Hulu   
 
 COPYRIGHT AND LICENCE
 

@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:               Net-Hulu
-version:            0.01
+version:            0.02
 abstract:           Perl extension for the Net::Hulu name space.  Can be use to download
 author:
-    - root <root@nonet>
+    - Gerald <gerald@nonet>
 license:            unknown
 distribution_type:  module
 configure_requires:
