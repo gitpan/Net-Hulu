@@ -6,6 +6,8 @@
 # change 'tests => 1' to 'tests => last_test_to_print';
 
 use Test;
+use strict;
+use warnings;
 BEGIN { plan tests => 1 };
 use Net::Hulu;
 ok(1); # If we made it this far, we're ok.
